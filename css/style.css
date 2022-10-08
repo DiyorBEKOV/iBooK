@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* header start  */
+ header {
+    padding: 1rem;
+    width: 100%;
+ }
+ .container {
+    max-width: 1340px;
+    margin: auto;
+ }
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+ }
+ header {
+    box-shadow: 2px 2px 30px #fff;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+ }
+ .navbar h1 {
+    font-family: Maiandra GD;
+    font-size: 47px;
+    color:rgb(2, 2, 51) ;
+    letter-spacing: -1.5px;
+    text-shadow: 0px 0px 1px blue;
+ }
+ .navbar__nav {
+    margin-top: 20px;
+ }
+ .navbar__nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Maiandra GD;
+    color: black;
+ }
+ .navbar__nav a:hover {
+    cursor: pointer;
+    color: black;
+    opacity: 0.9;
+ }
+ .navbar__nav a:nth-child(1) {
+    font-size: 18.5px;
+    font-weight: 600;
+    opacity: 0.9;
+ }
+ .icon__header {
+    font-size: 28px;
+    margin-top: 20px;
+ }
+ .icon__header .fa-solid {
+    padding-left: 5px;
+    padding-right: 5px;
+    color:rgb(2, 2, 51) ;
+ }
+ .icon__header .fa-solid:hover {
+    text-shadow: 0px 1px 1px brown;
+    cursor: grab;
+ }
+ /* header end  */
+ /* banner start  */
+ .banner {
+    width: 100%;
+    height: 80vh;
+    background-image: url(/img/picture\ for\ banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+ }
+ .banner h2 {
+  color: white;
+  font-size: 63px;
+  padding-top: 15%;
+  font-family: Cascadia Code SemiBold;
+  text-align: center;
+  text-shadow: 1px 1px 3px black;
+ }
+ .banner__bottom {
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    margin-top: 212px;
+ }
+ .banner__bottom h3 {
+    text-align: center;
+    font-family: Maiandra GD;
+    padding-top: 33px;
+    font-size: 40px;
+    font-weight: 200;
+    opacity: 0.8;
+ }
+ .banner__bottom hr {
+    background-color: black;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    opacity: 1;
+ }
+
+
