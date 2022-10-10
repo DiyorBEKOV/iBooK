@@ -6,6 +6,9 @@
 body {
    background-color: rgb(251, 250, 247);
 }
+html {
+   scroll-behavior: smooth;
+ }
                                 /* HEADER start  */
  header {
     padding: 1rem;
@@ -111,7 +114,29 @@ body {
  }
                             /* .banner end  */
                             /* SECTION start  */
-   /* .blog start                           */
+   /* .blog start 
+                          */
+  .fixed {
+   position: fixed;
+   right: 0%;
+   top: 80%;
+   padding: 8.5px 17px 8.5px 17px;
+   background-color: rgb(26, 25, 25);
+   border-radius: 10px;
+   display: none;
+   z-index: 1;
+  }
+  .fixed a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 18px;
+  }
+  section:hover .fixed {
+   display: block;
+  }
+  .bottom:hover .fixed {
+   display: block;
+  }                     
  .blog {
    margin-top: 100px;
    margin-bottom: 20px;
