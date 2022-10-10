@@ -1,0 +1,241 @@
+* {
+padding: 0;
+margin: 0;
+}
+@media screen and (max-width:900px) {
+    .container {
+        max-width: 85%;
+        margin: auto;
+    }
+    .fixed {
+        position: fixed;
+        right: 0%;
+        top: 80%;
+        padding: 6px 12px 6px 12px;
+        background-color: rgb(26, 25, 25);
+        border-radius: 10px;
+        display: none;
+        z-index: 1;
+       }
+       .fixed a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+       }
+    .icon__header .fa-bars {
+        display: block;    
+    }
+    .navbar__nav {
+        display: none;
+    }
+     .logo h1 {
+        font-size: 40px; 
+    }
+    .icon__header {
+        font-size: 26px;
+    }
+    .banner h2 {
+        color: white;
+        font-size: 40px;
+        padding-top: 150px;
+    }
+    .banner {
+        height: 70vh;
+    }
+    .banner__bottom {
+        width: 100%;
+        height: 12vh;
+    }
+    .banner__bottom h3 {
+        font-size: 30px;
+        padding-top: 25px;
+    }
+    .blog__content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .blog__title h3 {
+        font-size: 18.9px;
+    }
+    .blog__title i {
+        font-size: 15px;
+    }
+    .abaut__title h2 {
+        text-align: center;
+        font-size: 35px;
+        font-family: Maiandra GD;
+        margin-top: 70px;
+        opacity: 0.9;
+        letter-spacing: 2px;
+        margin-bottom: 80px;
+        position: relative;
+     }
+    .abaut__title h2::after {
+        content: "";
+        background-color: black;
+        position: absolute;
+        width: 7%;
+        border-bottom: 1.5px solid black;
+        top:50%;
+        left: 74%;
+        opacity: 0.9;
+     }
+     .abaut__title h2::before {
+        content: "";
+        position: absolute;
+        width: 7%;
+        border-bottom: 2px solid black;
+        top: 50%;
+        left: 20%;
+        opacity: 0.9;
+     }
+     
+     .abaut__content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+     }
+     .section__button {
+        margin-left: 17.5%;
+     }
+     .bottom__content {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 0;
+     }
+     .bottom {
+        width: 100%;
+        height: 100%;
+       
+     }
+    .bottom__item a {
+        color: #fff;
+        opacity: 0.5;
+        padding-top: 8px;
+        padding-bottom: 9px;
+        font-family: Candara;
+        transition: ease 0.5;
+        font-size: 16px;
+      }
+    .fa-droplet {
+        margin-bottom: 5%;
+        cursor: pointer;
+    } 
+    .bottom__title__item p{
+      color: #fff;
+      opacity: 0.6;
+      font-family: Maiandra GD;
+      margin-top: 35px;
+    }
+.bottom__title__item p span {
+    font-weight: 600;
+    opacity: 1;
+    text-shadow: 0px 0px 1px white; 
+}
+}
+@media screen and (max-width:450px) {
+    .container {
+        max-width: 90%;
+    }
+    .icon__header .fa-bars {
+        margin-left: 32%;
+        position:absolute;
+        bottom: 21%;
+    }
+    .banner__bottom {
+        width: 100%;
+        height: 10vh;
+    }
+    .banner__bottom h3 {
+        font-size: 25px;
+    }
+    .blog__img .fa-heart {
+        padding: 6px 5px 4px 5px;
+        font-size: 16px;
+        display: block;
+     }
+     .blog__img .fa-heart {
+        position: absolute;
+        top: 78%;
+        left: 10%;
+     }
+     /* heart end  */
+     /* shopiing start  */
+     .blog__img .fa-cart-shopping {
+        padding: 6px 5px 4px 5px;
+        font-size: 15px;
+        display: block;
+       
+     }
+     .blog__img .fa-cart-shopping {
+        top: 78%;
+        left: 41%;
+     }
+   
+      /* shopiing end  */
+      /* eye start  */
+     .blog__img .fa-eye {
+        padding: 6px 5px 4px 5px;
+        font-size: 15px;
+        display: block;
+     }
+     .blog__img .fa-eye {
+        position: absolute;
+        top: 78%;
+        left: 74.5%;
+     }
+     .abaut__title h2 {
+        font-size: 35px;
+     }
+     .abaut__title h2::after {
+        width: 9%;
+        left: 80%;
+     }
+     .abaut__title h2::before {
+        width: 9%;
+        left: 10%;
+     }
+     .section__button {
+        padding: 14px 10px 14px 10px ;
+        font-size: 20px;
+        margin-left: 13.5%;
+     }
+     .bottom__title__item p{
+       font-size: 13px;
+       letter-spacing: -1px;
+     }
+     .abaut__img .fa-heart {
+        padding: 6px 5px 4px 5px;
+        font-size: 16px;
+        display: block;
+     }
+     .abaut__img .fa-heart {
+        position: absolute;
+        top: 78%;
+        left: 10%;
+     }
+     /* heart end  */
+     /* shopiing start  */
+     .abaut__img .fa-cart-shopping {
+        padding: 6px 5px 4px 5px;
+        font-size: 15px;
+        display: block;
+       
+     }
+     .abaut__img .fa-cart-shopping {
+        top: 78%;
+        left: 41%;
+     }
+   
+      /* shopiing end  */
+      /* eye start  */
+     .abaut__img .fa-eye {
+        padding: 6px 5px 4px 5px;
+        font-size: 15px;
+        display: block;
+     }
+     .abaut__img .fa-eye {
+        position: absolute;
+        top: 78%;
+        left: 74.5%;
+     }
+}

@@ -69,6 +69,11 @@ html {
     text-shadow: 0px 1px 1px brown;
     cursor: grab;
  }
+ .icon__header .fa-bars {
+   margin-left: 120px;
+   position:absolute;
+   bottom: 20%;
+ }
                               /* header end  */
                               /* banner start  */
  .banner {
@@ -520,6 +525,7 @@ h6 {
    font-family: Maiandra GD;
    font-size: 16.5px;
    margin-top: 25px;
+   margin-bottom: 25px;
 }
 .bottom__title__item p span {
    font-weight: 600;
