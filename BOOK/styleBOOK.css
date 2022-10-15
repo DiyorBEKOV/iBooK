@@ -1,0 +1,199 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   background-color: rgb(251, 250, 247);
+}
+html {
+   scroll-behavior: smooth;
+ }
+                                /* HEADER start  */
+ header {
+    padding: 1rem;
+    width: 100%;
+ }
+ .container {
+    max-width: 1340px;
+    margin: auto;
+ }
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+ }
+ header {
+    box-shadow: 2px 2px 30px rgb(165, 162, 162);
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+ }
+ .navbar h1 {
+    font-family: Maiandra GD;
+    font-size: 47px;
+    color:rgb(2, 2, 51) ;
+    letter-spacing: -1.5px;
+    text-shadow: 0px 0px 1px blue;
+ }
+ .navbar__nav {
+    margin-top: 20px;
+ }
+ .navbar__nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Maiandra GD;
+    color: black;
+ }
+ .navbar__nav a:hover {
+    cursor: pointer;
+    color: black;
+    opacity: 0.9;
+ }
+ .navbar__nav a:nth-child(1) {
+    font-size: 18.5px;
+    font-weight: 600;
+    opacity: 0.9;
+ }
+ .icon__header {
+    font-size: 28px;
+    margin-top: 20px;
+ }
+ .icon__header .fa-solid {
+    padding-left: 5px;
+    padding-right: 5px;
+    color:rgb(2, 2, 51) ;
+ }
+ .icon__header .fa-solid:hover {
+    text-shadow: 0px 1px 1px brown;
+    cursor: grab;
+ }
+ .icon__header .fa-bars {
+   margin-left: 120px;
+   position:absolute;
+   bottom: 20%;
+ }
+                                       /* header end  */
+                                       /* banner start  */
+   .banner {
+    width: 100%;
+    height: 55vh;
+    background-image: url(/img/picture\ for\ banner\ reading.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15%;
+    box-shadow: 0px 0px 10px gray;
+  }
+  .banner h1 {
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+    text-shadow: 0px 0px 1px black;
+    padding-top: 200px;
+    font-family:Maiandra GD;
+    font-size: 55px;
+    letter-spacing: 4px;
+  }   
+                                                 /* banner end */
+                                                 /* fotter start */
+.bottom {
+    background-color: black;
+    opacity: 0.9;
+    height: 80vh;
+ }                            
+ .bottom__content {
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 2rem;
+ }
+ .bottom__item img {
+   width: 100%;
+   height: 80%;
+   opacity: 0.8;
+   margin-top: 10px;
+ }                        
+ .bottom__content a {
+    display: block;
+    text-decoration: none;
+ }
+ .bottom__item {
+    margin-top:5.5%;
+ }
+ .bottom__item h1 {
+   font-family: Magneto;
+   color: #fff;
+   text-align: center;
+   margin-top: 10px;
+   font-size: 55px;
+   letter-spacing: 2px;
+   text-shadow: 1px 1px 5px rgb(2, 2, 51);
+ }
+ .bottom__item h2 {
+     color: #fff;
+     margin-top: 100px;
+     margin-bottom:25px ;
+     font-family: Bahnschrift;
+     font-size: 22px;
+ }
+ .bottom__item a {
+   color: #fff;
+   opacity: 0.5;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   font-family: Candara;
+   transition: ease 0.5;
+   font-size: 16px;
+ }
+ .bottom__item a:hover {
+    opacity: 1;
+    transition: ease 0.5;
+ }
+ .bottom__item p {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 18px;
+    font-family:Candara;
+    line-height: 27px;
+ }
+ .fa-droplet {
+    color: #fff;
+    opacity: 0.5;
+    padding-right: 10px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    font-size: 25px;
+ }
+ h6 {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: Candara;
+ }
+ 
+                                    /* bottom end  */
+                                    /* bottom titile  */
+ .bottom__title {
+    height: 11vh;
+    background-color: black;
+    opacity: 0.85;
+ }                                  
+ .bottom__title_content {
+    display: flex;
+    justify-content: space-around;
+ }
+ .bottom__title__item p
+ {
+    color: #fff;
+     opacity: 0.6;
+    font-family: Maiandra GD;
+    font-size: 16.5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+ }
+ .bottom__title__item p span {
+    font-weight: 600;
+    opacity: 1;
+    text-shadow: 0px 0px 1px white;
+ }
+                                                  
